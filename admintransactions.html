@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="uikit.css">
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <!--Header-->
+        <nav class="uk-navbar">
+            <a class="uk-navbar-brand" href="adminhome.html">Troy's Toys</a>
+            <ul class="uk-navbar-nav">
+                <li><a href="adminproducts.html">Products</a></li>
+                <li><a href="adminaccounts.html">Accounts</a></li>
+                <li><a href="admintransactions.html">Transactions</a></li>
+            </ul>
+            
+            <div class="uk-navbar-content uk-navbar-flip  uk-hidden-small">
+                <div class="uk-button-group">
+                    <a class="uk-button" href="index.html">Sign out admin</a>
+                </div>
+            </div>
+        </nav>
+        
+        <div class="uk-panel uk-panel-box-secondary uk-panel-space">
+            <h1>Transactions</h1>
+            <table class="uk-table">
+                <tr>
+                    <th>Trans ID</th>
+                    <th>Prod ID</th>
+                    <th>Acct ID</th>
+                    <th>Qty</th>
+                    <th>Total Amt</th>
+                    <th>Timestamp</th>
+                    <th>Status</th>
+                    <th></th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <td>0001</td>
+                    <td>0002</td>
+                    <td>0003</td>
+                    <td>2</td>
+                    <td>2000.00</td>
+                    <td>12/12/2018 10:00:00</td>
+                    <td class="uk-text-warning">In Transit</td>
+                    <td><a href="#" class="uk-button uk-button-danger">Delete</a></td>
+                    <td><a href="#" class="uk-button">Cancel</a></td>
+                </tr>
+                <tr>
+                    <td>0001</td>
+                    <td>0002</td>
+                    <td>0003</td>
+                    <td>2</td>
+                    <td>2000.00</td>
+                    <td>12/12/2018 10:00:00</td>
+                    <td class="uk-text-success">Received</td>
+                    <td><a href="#" class="uk-button uk-button-danger">Delete</a></td>
+                    <td><a href="#" class="uk-button">Cancel</a></td>
+                </tr>
+                <tr>
+                    <td>0001</td>
+                    <td>0002</td>
+                    <td>0003</td>
+                    <td>2</td>
+                    <td>2000.00</td>
+                    <td>12/12/2018 10:00:00</td>
+                    <td class="uk-text-danger">Canceled</td>
+                    <td><a href="#" class="uk-button uk-button-danger">Delete</a></td>
+                    <td><a href="#" class="uk-button">Cancel</a></td>
+                </tr>
+            </table>
+        </div>
+        
+        <footer class="uk-panel">
+            <div class="uk-panel uk-text-center">
+                <small>&copy; 2018 Minions nina Marnel at Courtney Inc.</small>
+            </div>
+        </footer>
+        
+        <script src="uikit.min.js"></script>
+        <script src="uikit-icons.min.js"></script>
+        <script src="jquery-3.3.1.min.js"></script>
+    </body>
+</html>
